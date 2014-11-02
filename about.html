@@ -1,0 +1,51 @@
+---
+layout: default
+title: About
+---
+
+<div class="grid">
+    <p>
+        My name is Geoffrey Lehée.
+        <br>
+        I live in France and I'm a DevOps.
+        My work is full of Python, Django, Linux and Javascript. &lt;3 Open source.
+        <br />
+        <br />
+        {% if site.github %}
+            Below is a short list of projects I have created or worked on. You can find many more recent projects on <a href="https://github.com/{{site.github}}">GitHub</a>.
+        {% endif %}
+    </p>
+
+    <ol class="projects">
+        {% for project in site.projects %}
+        <li>
+            <strong><a target="_blank" href="{{project.url}}">{{project.title}}</a></strong> - {{project.desc}}<em>{{project.tech}}</em>
+        </li>
+        {% endfor %}
+    </ol>
+
+    <br>
+
+    <div class="profiles grid ta">
+        {% if site.github %}
+            <a href="https://github.com/{{site.github}}" id="github">
+                <span>{{site.github}}</span>
+            </a>
+        {% endif %}
+        {% if site.twitter %}
+            <a href="https://twitter.com/{{site.twitter}}" id="twitter">
+                <span>{{site.twitter}}</span>
+            </a>
+        {% endif %}
+        {% if site.stackoverflow %}
+            <a href="http://stackoverflow.com/users/{{site.stackoverflow}}" id="stackoverflow">
+                <span>{{site.name}}</span>
+            </a>
+        {% endif %}
+        {% if site.netflam %}
+            <a href="https://netflam.com/u/{{site.netflam}}" id="netflam">
+                <span>{{site.netflam}}</span>
+            </a>
+        {% endif %}
+    </div>
+</div>

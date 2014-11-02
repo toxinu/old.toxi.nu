@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="ta">
+    <p>{{ site.description }}</p>
+
+    <div class="profiles grid">
+        {% if site.github %}
+            <a href="https://github.com/{{site.github}}" id="github">
+                <span>{{site.github}}</span>
+            </a>
+        {% endif %}
+        {% if site.twitter %}
+            <a href="https://twitter.com/{{site.twitter}}" id="twitter">
+                <span>{{site.twitter}}</span>
+            </a>
+        {% endif %}
+        {% if site.stackoverflow %}
+            <a href="http://stackoverflow.com/users/{{site.stackoverflow}}" id="stackoverflow">
+                <span>{{site.name}}</span>
+            </a>
+        {% endif %}
+        {% if site.netflam %}
+            <a href="https://netflam.com/u/{{site.netflam}}" id="netflam">
+                <span>{{site.netflam}}</span>
+            </a>
+        {% endif %}
+    </div>
+</div>
+
+<ol class="stories grid">
+{% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}" class="left">{{ post.title }}</a>
+        <time datetime="{{ post.date | date:"%Y-%m-%d" }}" class="right">{{ post.date | date_to_long_string }}</time>
+    </li>
+{% endfor %}
+</ol>

@@ -1,0 +1,51 @@
+markdown: redcarpet
+highlighter: pygments
+
+name: Geoffrey Lehée
+title: Geoffrey Lehée
+description: "Developer, hacker, music listener and books reader."
+url: http://socketubs.org
+footer: (c) 2014
+github: socketubs
+twitter: socketubs
+google-plus:
+google-site-verification:
+header-image: /assets/images/header_image.jpeg
+# Can be gravatar url (https://secure.gravatar.com/avatar/5218a2cef79f166d20e55b60c48f97a0?s=36&d=identicon)
+
+projects:
+
+- title: Sublimall
+  url:   https://github.com/socketubs/Sublimall
+  desc:  SublimeText 3 plugin to sync your configuration everywhere.
+  tech:  Python3 / SublimeText
+
+- title: Leselys
+  url:   https://github.com/socketubs/leselys
+  desc:  Web based RSS reader.
+  tech:  Python / Flask
+
+- title: Pyhn
+  url:   https://github.com/socketubs/pyhn
+  desc:  Hacker News command line client.
+  tech:  Python / Ncurses
+
+- title: Isit
+  url:   https://github.com/socketubs/isit
+  desc:  Python environment discoverer.
+  tech:  Python
+
+- title: Minne
+  url:   https://github.com/socketubs/minne
+  desc:  I'm Minne, your links shelf.
+  tech:  Python / Django
+
+- title: Sushi
+  url:   https://github.com/socketubs/sushi
+  desc:  Sushi is package builder based on template.
+  tech:  Python / Jinja2
+
+- title: Ubik
+  url:   https://github.com/socketubs/ubik
+  desc:  Ubik is an elegant package manager for Unix.
+  tech:  Python / Unix
