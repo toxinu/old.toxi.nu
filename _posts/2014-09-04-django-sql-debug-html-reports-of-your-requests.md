@@ -10,7 +10,7 @@ You can't reproduce easily `POST`, `PUT`, etc... requests.
 
 Let's introduce [Django SQL Debug][3]. It's a tool that works with [Django Debug Toolbar][1] to generate an `HTML` report that you can read offline or later for each `HTTP` requests.
 
-{<1>}![Django SQL Debug screenshot](https://raw.githubusercontent.com/socketubs/django-sql-debug/master/screenshots/01.png)
+![Django SQL Debug screenshot](https://raw.githubusercontent.com/socketubs/django-sql-debug/master/screenshots/01.png)
 
 It's goal is to let you see all your `SQL` queries (*and more*) when you don't have a direct access to [Django Debug Toolbar][1].
 That's why it's generate an `HTML` report that looks like the toolbar.
