@@ -1,7 +1,6 @@
 ---
 published: true
 title: Restless for building Python RESTful API
-layout: default
 ---
 
 After trying to build RESTful API in Django with [Django Rest Framework][0], my friend [Pabluk][1] allow me to discover [Restless][2]. A very small code base Python module to build RESTful API.
@@ -17,7 +16,7 @@ Let's try a [Django][5] integration.
 
 This is your existing `models.py` :
 
-```language-python
+```
 class Country(models.Model):
 	name = models.CharField(max_length=2)
     
@@ -29,7 +28,7 @@ class Pizza(models.Model):
 
 You have to understand that your API will expose *Resources*, this is how many framework call it. Let's create a `resources.py`.
 
-```language-python
+```
 from restless.dj import DjangoResource
 from restless.preparers import FieldsPreparer
 
@@ -47,7 +46,7 @@ class PizzaResource(DjangoResource):
 
 And now just expose it through your `urls.py` :
 
-```language-python
+```
 [...]
 url(r'^api/countries/', include(CountryResource.urls())),
 url(r'^api/pizzas/', include(PizzaResource.urls())),
@@ -58,7 +57,7 @@ This is quite simple, I won't explain you how to use `POST`, `PATCH`, etc... Jus
 
 But just leave me show you a simple mixin for pagination. Let's create a `mixins.py`, just as Django *Class Based View*.
 
-```language-python
+```
 from django.core.paginator import Paginator
 
 class APIPaginatorMixin:
@@ -92,7 +91,7 @@ class APIPaginatorMixin:
 
 You just have to update your `resources.py` :
 
-```language-python
+```
 from restless.dj import DjangoResource
 from restless.preparers import FieldsPreparer
 from .mixins import APIPaginatorMixin
