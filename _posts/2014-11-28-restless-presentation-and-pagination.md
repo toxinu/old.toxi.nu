@@ -1,8 +1,8 @@
 ---
 published: true
+title: Restless for building Python RESTful API
+layout: default
 ---
-
-## Restless for building Python RESTful API
 
 After trying to build RESTful API in Django with [Django Rest Framework][0], my friend [Pabluk][1] allow me to discover [Restless][2]. A very small code base Python module to build RESTful API.
 
