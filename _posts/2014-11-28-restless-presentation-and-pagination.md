@@ -1,5 +1,6 @@
 ---
 published: true
+layout: post
 title: Restless for building Python RESTful API
 ---
 
