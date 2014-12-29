@@ -177,7 +177,7 @@ mark {
  */
 
 small {
-  font-size: 80%;
+  font-size: 90%;
 }
 
 /**
@@ -257,7 +257,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em;
+  font-size: 0.9em;
   margin: 0px;
 }
 
