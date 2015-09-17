@@ -49,7 +49,7 @@ Thank you.
 [4]: http://en.wikipedia.org/wiki/Christian_Fennesz
 [5]: http://en.wikipedia.org/wiki/Aphex_Twin
 [10]: http://en.wikipedia.org/wiki/Virgins_(Tim_Hecker_album)
-[11]: http://www.youtube.com/watch?v=SvYuGxMdit0
+[11]: https://www.youtube.com/watch?v=XWAghDS6s4Q&list=PLKtI6DyKnYmNmVOGTz0wTki0kiLHVpdi5
 [12]: https://www.youtube.com/watch?v=wwH1KSAIVH4
 [13]: http://www.youtube.com/watch?v=CZHS52l-4Nw
 [14]: http://www.youtube.com/watch?v=EE9mT4JaW_0
