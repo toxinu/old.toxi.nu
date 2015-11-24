@@ -17,9 +17,9 @@ That's why it's generate an `HTML` report that looks like the toolbar.
 
 You can install it like any other Django application:
 
-```
+{% highlight bash %}
 pip install django-sql-debug
-```
+{% endhighlight %}
 
 Just add `django_sql_debug` before `debug_toolbar` in `INSTALLED_APPS`. Configure your `HTML` reports directory, let's use your app and see your first report.
 

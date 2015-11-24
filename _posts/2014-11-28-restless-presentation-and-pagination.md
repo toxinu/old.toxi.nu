@@ -17,19 +17,18 @@ Let's try a [Django][5] integration.
 
 This is your existing `models.py` :
 
-```
+{% highlight python %}
 class Country(models.Model):
 	name = models.CharField(max_length=2)
     
 class Pizza(models.Model):
     name = models.CharField(max_length=255)
     country = models.ForeignKey(Country)
-    
-```
+{% endhighlight %}
 
 You have to understand that your API will expose *Resources*, this is how many framework call it. Let's create a `resources.py`.
 
-```
+{% highlight python %}
 from restless.dj import DjangoResource
 from restless.preparers import FieldsPreparer
 
@@ -43,22 +42,22 @@ class PizzaResource(DjangoResource):
     	'id': 'id',
         'name': 'name',
         'country': 'country.id'})
-```
+{% endhighlight %}
 
 And now just expose it through your `urls.py` :
 
-```
+{% highlight python %}
 [...]
 url(r'^api/countries/', include(CountryResource.urls())),
 url(r'^api/pizzas/', include(PizzaResource.urls())),
 [...]
-```
+{% endhighlight %}
 
 This is quite simple, I won't explain you how to use `POST`, `PATCH`, etc... Just read [documentation][6].
 
 But just leave me show you a simple mixin for pagination. Let's create a `mixins.py`, just as Django *Class Based View*.
 
-```
+{% highlight python %}
 from django.core.paginator import Paginator
 
 class APIPaginatorMixin:
@@ -88,11 +87,11 @@ class APIPaginatorMixin:
         qs = self.get_queryset()
         self.paginate(qs)
         return self.paginator.page(self.page)
-```
+{% endhighlight %}
 
 You just have to update your `resources.py` :
 
-```
+{% highlight python %}
 from restless.dj import DjangoResource
 from restless.preparers import FieldsPreparer
 from .mixins import APIPaginatorMixin
@@ -113,7 +112,7 @@ class PizzaResource(APIPaginatorMixin, DjangoResource):
         
     def get_queryset(self):
     	return Country.objects.all()
-```
+{% endhighlight %}
 
 And just enjoy your paginated Restful API.
 This is why I love [Restless][2]. I agree to say that you'll write probably more code than [Django Rest Framework][0] but you'll get more control of all the magic your Restless API do.
