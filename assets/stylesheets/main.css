@@ -623,6 +623,27 @@ ol.stories {
   font-weight: bold;
 }
 
+@media screen and (max-width: 768px) {
+  body {
+    margin:5px;
+  }
+  .stories li time {
+    display:none;
+  }
+  .stories li a {
+    width:350px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+  }
+  .masthead a.home {
+    display:none;
+  }
+  .footer .latest-update {
+    display:none;
+  }
+}
+
 /* Projects
    ========================================================================= */
 
