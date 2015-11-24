@@ -748,6 +748,12 @@ iframe {
   margin-bottom: 5px;
 }
 
+/* Instantclick
+   ========================================================================= */
+#instantclick-bar {
+  background: black;
+}
+
 /* Highlight
    ========================================================================= */
 .lineno    { margin-right: 10px;}
