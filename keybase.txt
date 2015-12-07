@@ -1,0 +1,51 @@
+https://keybase.io/socketubs
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://socketubs.org
+  * I am socketubs (https://keybase.io/socketubs) on keybase.
+  * I have a public key ASBdRDeWwTuJ-bQJczQiG1pnBvefiSDNzdv2_DkIxhFAAwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101ce54dc8b019381f220906f4e5bc9c5017c69e6674a23df0888a61fea64a052170a",
+            "host": "keybase.io",
+            "kid": "01205d443796c13b89f9b4097334221b5a6706f79f8920cdcddbf6fc3908c61140030a",
+            "uid": "d75eeff17dddf7f3a535d5b58a89c600",
+            "username": "socketubs"
+        },
+        "service": {
+            "hostname": "socketubs.org",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.5"
+    },
+    "ctime": 1449493867,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1449493751,
+        "hash": "90c06f6fe04d7703494bee7303979b27e102e84f82976547d71b5fa5b3e0bb802fd1fd73c438ef6e34af16c6d154d8ddb5ff338cdc5e0e072c763c1b31091813",
+        "seqno": 330807
+    },
+    "prev": "a94a13c87cae17e420823d3d3ecccd0b45e44e9f0d64bb369b53adbe4308c916",
+    "seqno": 25,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgXUQ3lsE7ifm0CXM0IhtaZwb3n4kgzc3b9vw5CMYRQAMKp3BheWxvYWTFAvV7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxY2U1NGRjOGIwMTkzODFmMjIwOTA2ZjRlNWJjOWM1MDE3YzY5ZTY2NzRhMjNkZjA4ODhhNjFmZWE2NGEwNTIxNzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNWQ0NDM3OTZjMTNiODlmOWI0MDk3MzM0MjIxYjVhNjcwNmY3OWY4OTIwY2RjZGRiZjZmYzM5MDhjNjExNDAwMzBhIiwidWlkIjoiZDc1ZWVmZjE3ZGRkZjdmM2E1MzVkNWI1OGE4OWM2MDAiLCJ1c2VybmFtZSI6InNvY2tldHVicyJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoic29ja2V0dWJzLm9yZyIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuNSJ9LCJjdGltZSI6MTQ0OTQ5Mzg2NywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDQ5NDkzNzUxLCJoYXNoIjoiOTBjMDZmNmZlMDRkNzcwMzQ5NGJlZTczMDM5NzliMjdlMTAyZTg0ZjgyOTc2NTQ3ZDcxYjVmYTViM2UwYmI4MDJmZDFmZDczYzQzOGVmNmUzNGFmMTZjNmQxNTRkOGRkYjVmZjMzOGNkYzVlMGUwNzJjNzYzYzFiMzEwOTE4MTMiLCJzZXFubyI6MzMwODA3fSwicHJldiI6ImE5NGExM2M4N2NhZTE3ZTQyMDgyM2QzZDNlY2NjZDBiNDVlNDRlOWYwZDY0YmIzNjliNTNhZGJlNDMwOGM5MTYiLCJzZXFubyI6MjUsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAd7DCnTeZaHhOl2qsswTY023L1i8vOYTPCX4FztA9H1gk5narEmH/+Lwb+3obDSUXtVppeq5HmgTpCJl1GBpPAahzaWdfdHlwZSCjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/socketubs
