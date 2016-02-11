@@ -1,17 +1,6 @@
-/*!                  main.css | © 2014 Maciej A. Czyzewski                  !*/
-
-/* =========================================================================
-   Configure (normalize.css v3.0.3)
-   ========================================================================= */
-
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS text size adjust after orientation change, without disabling
- *    user zoom.
- */
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Open Sans', Arial, sans-serif
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
   height: 100%;
@@ -466,7 +455,6 @@ th {
 
 body {
   color: black;
-  font-family: 'Merriweather', serif;
   font-size: 18px;
   line-height: 1.5em;
 }
