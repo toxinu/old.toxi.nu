@@ -9,7 +9,6 @@ github: socketubs
 twitter: socketubs
 google-plus:
 google-site-verification:
-header-image: /assets/images/header_image.jpeg
 # Can be gravatar url (https://secure.gravatar.com/avatar/5218a2cef79f166d20e55b60c48f97a0?s=36&d=identicon)
 include: ["keybase.txt"]
 

@@ -606,7 +606,6 @@ h4:first-child, h5:first-child, h6:first-child {
 
 .masthead div {
   height: 36px;
-  margin-left: 1em;
   padding-top: 6px;
 }
 
@@ -687,6 +686,13 @@ ol.stories {
 .projects a {
   color: black;
   text-decoration: none;
+}
+
+/* Archives
+   ========================================================================= */
+span.fixed-date {
+display: inline-block;
+  width: 65px;
 }
 
 /* Profiles
