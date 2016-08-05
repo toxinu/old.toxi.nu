@@ -1,14 +1,6 @@
 markdown: redcarpet
 highlighter: rouge
 
-redcarpet:
-  syntax_highlighter: rouge
-  syntax_highlighter_opts:
-    span:
-      line_numbers: false
-    block:
-      line_numbers: true
-
 name: toxinu
 title: toxinu
 description: "Developer, hacker, music listener and books reader."
