@@ -17,7 +17,7 @@ title: About
     <ul class="projects">
         {% for project in site.projects %}
         <li>
-            <strong><a target="_blank" href="{{project.url}}">{{project.title}}</a></strong> - <em><small>{{project.tech}}</small></em> - {{project.desc}}
+            <strong><a target="_blank" href="{{project.url}}">{{project.title}}</a></strong> - {{project.desc}} {% if project.stars %}~<em><small>{{project.stars}} stars</small></em>{% endif %}
         </li>
         {% endfor %}
     </ul>

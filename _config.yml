@@ -18,16 +18,19 @@ projects:
   url:   https://github.com/toxinu/Sublimall
   desc:  SublimeText 3 plugin to sync your configuration.
   tech:  Python
-
-- title: Leselys
-  url:   https://github.com/toxinu/leselys
-  desc:  Web based RSS reader.
-  tech:  Python / Flask
+  stars:  550
 
 - title: Pyhn
   url:   https://github.com/toxinu/pyhn
   desc:  Hacker News command line client.
   tech:  Python / Ncurses
+  stars: 330
+
+- title: Leselys
+  url:   https://github.com/toxinu/leselys
+  desc:  Web based RSS reader.
+  tech:  Python / Flask
+  stars: 200
 
 - title: Isit
   url:   https://github.com/toxinu/isit
