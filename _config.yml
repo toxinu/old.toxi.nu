@@ -1,8 +1,8 @@
 markdown: redcarpet
 highlighter: rouge
 
-name: Geoffrey Lehée
-title: Geoffrey Lehée
+name: toxinu
+title: toxinu
 description: "Developer, hacker, music listener and books reader."
 url: https://toxi.nu
 github: toxinu
@@ -10,14 +10,14 @@ twitter: toxinu_
 google-plus:
 google-site-verification:
 # Can be gravatar url (https://secure.gravatar.com/avatar/5218a2cef79f166d20e55b60c48f97a0?s=36&d=identicon)
-include: ["keybase.txt"]
+include: []
 
 projects:
 
 - title: Sublimall
   url:   https://github.com/toxinu/Sublimall
-  desc:  SublimeText 3 plugin to sync your configuration everywhere.
-  tech:  Python3 / SublimeText
+  desc:  SublimeText 3 plugin to sync your configuration.
+  tech:  Python
 
 - title: Leselys
   url:   https://github.com/toxinu/leselys
@@ -36,15 +36,11 @@ projects:
 
 - title: Minne
   url:   https://github.com/toxinu/minne
-  desc:  I'm Minne, your links shelf.
+  desc:  Links aggregator.
   tech:  Python / Django
 
-- title: Sushi
-  url:   https://github.com/toxinu/sushi
-  desc:  Sushi is package builder based on template.
-  tech:  Python / Jinja2
-
-- title: Ubik
-  url:   https://github.com/toxinu/ubik
-  desc:  Ubik is an elegant package manager for Unix.
-  tech:  Python / Unix
+compress_html:
+  comments: all
+  endings: all
+  blanklines: false
+  clippings: all
