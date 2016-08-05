@@ -1,6 +1,14 @@
 markdown: redcarpet
 highlighter: rouge
 
+redcarpet:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+
 name: toxinu
 title: toxinu
 description: "Developer, hacker, music listener and books reader."
@@ -38,9 +46,3 @@ projects:
   url:   https://github.com/toxinu/minne
   desc:  Links aggregator.
   tech:  Python / Django
-
-compress_html:
-  comments: all
-  endings: all
-  blanklines: false
-  clippings: all
