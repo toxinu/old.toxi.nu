@@ -168,11 +168,6 @@ Feel free to contact [me][13] for any questions, leave issue on [Github][12].
 
 In further posts I'll speak about: "How to store package metadata", "How to trash your unmaintainable fixtures" and more tools like [bumpversion][14] and [docker-compose][15].
 
-Another article about how to organize Python package metadata.
-Another article about factory-boy and fake-factory.
-Another article about docker-compose.
-Another article about bumpversion.
-
 [1]: https://www.djangoproject.com/
 [2]: https://pip.pypa.io/en/stable/
 [3]: https://cookiecutter.readthedocs.io/en/latest/
