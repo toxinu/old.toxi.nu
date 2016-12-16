@@ -298,6 +298,9 @@ samp {
   font-size: 0.9em;
   margin: 0px;
 }
+code {
+  background-color: #f8f5f0;
+}
 
 /* Forms
    ========================================================================= */
@@ -799,11 +802,21 @@ iframe {
 
 /* Highlight
    ========================================================================= */
-.lineno    { margin-right: 10px;}
-.highlight        { font: normal 16px helvetica, sans-serif;
-             background: #ecf0f1;
-             padding: 1em 1em;
-             margin: 0 0 }
+.lineno    {
+  margin-right: 10px;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently */
+}
+.highlight  {
+  font: normal 16px helvetica, sans-serif;
+  background: #f8f5f0;
+  padding: 1em 1em;
+  margin: 0 0
+}
 .highlight .c     { color: #999988;
              font-style: italic }             /* Comment */
 .highlight .err   { color: #a61717;
@@ -883,4 +896,11 @@ iframe {
   -moz-border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
   border: 0px solid #000000;
+}
+
+.highlight pre.lineno {
+  border-right-width: 1px;
+  border-right-color: grey;
+  border-right-style: solid;
+  padding-right: 5px;
 }
