@@ -9,7 +9,7 @@ I'll present you a [Django][1] layout which allow to ship your project (not app)
 This template is available as a [Cookiecutter][3] template. But I'll remove every references, because this paper is mainly written to present you a Django project layout. Maybe I'll do another post about Cookiecutter later.
 
 My first need is to be able to install my Django project via `pip install my-awesome-app` and access it via `my-awesome-app` entry point
-without loosing `manage.py` flexibility.
+without losing `manage.py` flexibility.
 The first reference for this template is [Sentry][4] project. I'm really appreciative of how this project is nicely built by nice people.
 
 Let's describe how it works!
@@ -128,7 +128,7 @@ DJANGO_SETTINGS_MODULE=my_awesome_project.settings django-admin shell
 
 Ok, it's very verbose. This is why this template give you another approach with `runner` which use [click][11] library.
 
-Main goal is to be able to do something like: 
+Main goal is to be able to do something like:
 
 {% highlight bash %}
 my-awesome-project django shell
@@ -146,7 +146,7 @@ import django
 
 @click.command()
 def version():
-    "Show Django version." 
+    "Show Django version."
     click.echo('Django {}'.format(django.__version__))
 {% endhighlight %}
 
@@ -159,12 +159,12 @@ Django 1.10.1
 
 ## End
 
-I know every Django or project layouts can be personnal but here, I want 
+I know every Django or project layouts can be personnal but here, I want
 to show you how to ship a Django project in a professional way.
 
 You can retrieve this template [here][16].
 
-Feel free to contact [me][13] for any questions, leave issue on [Github][12]. 
+Feel free to contact [me][13] for any questions, leave issue on [Github][12].
 
 In further posts I'll speak about: "How to store package metadata", "How to trash your unmaintainable fixtures" and more tools like [bumpversion][14] and [docker-compose][15].
 
