@@ -34,7 +34,7 @@ __uri__ = "https://example.com"
 
 __version__ = "0.1.0"
 
-__author__ = u"Geoffrey Lehée"
+__author__ = u"toxinu"
 __email__ = "contact@toxi.nu"
 
 __license__ = "BSD"
